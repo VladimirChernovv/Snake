@@ -1,0 +1,39 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 100px;
+}
+
+.field {
+	width: 500px;
+	height: 500px;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+	background-color: #FFFF66;
+}
+
+.excel {
+	width: 50px;
+	height: 50px;
+	padding: 5px;
+}
+
+.snakeBody {
+	background: #99FF66 url(../img/steps.jpg) no-repeat center;
+	background-size: cover;
+	border-radius: 50%;
+}
+
+.head {
+	background: #FF3333 url(../img/github-logo.jpg) no-repeat center;
+	background-size: cover;
+	border-radius: 10%;
+}
+
+.mouse {
+	background: #ccc url(../img/mouse.jpg) no-repeat center;
+	background-size: cover;
+}
